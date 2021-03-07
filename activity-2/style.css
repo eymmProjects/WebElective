@@ -1,0 +1,97 @@
+*{
+    box-sizing: border-box;
+
+}
+
+body{
+    background-color: #f9fafb;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height:250vh;
+    margin:50px 100px;
+    /* overflow: hidden; */
+}
+
+.container{
+    position: absolute;
+}
+
+h2{
+    text-align: center;
+}
+
+
+.btn-container{
+    /* margin: 0px 50%; */
+    margin:0 420px;
+}
+  
+.poem-toggler {
+    transition: 2s all ease;
+    /* align-items: center; */
+    position:relative;
+  }
+  
+  
+/* 
+.bar {
+    width: 30px;
+    height: 3px;
+    margin: 5px;
+    background: #8d8d8d;
+    transition: all 0.5s ease;
+  } */
+
+.poem-toggler .bar-left .bar{
+    width: 30px;
+    height: 3px;
+    margin: 10px 20px 10px 0px ;
+    background: #8d8d8d;
+    transition: all 0.5s ease;
+  }
+
+  .poem-toggler .bar-right .bar{
+    width: 30px;
+    height: 3px;
+    margin: 10px 0 10px 20px ;
+    background: #8d8d8d;
+    transition: all 0.5s ease;
+    align-items: left;
+  }
+
+  .poem-toggler .bar-center .bar{
+    width: 30px;
+    height: 3px;
+    margin: 10px;
+    background: #8d8d8d;
+    transition: all 0.5s ease;
+    align-items: left;
+  }
+
+
+/* part 2 */
+
+.assignment-p2{
+margin:200px 0 200px  0;
+}
+
+.info{
+  margin:100px 0;
+}
+
+.link-container a{
+  text-decoration: none;
+  margin:10px 10px;
+  font-size: 16px;
+}
+
+h3{
+  font-size: 32px;
+}
+
+h2{
+  font-size: 40px;
+}
